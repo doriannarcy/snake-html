@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Press+Start+2P&display=swap');
+
+body
+{
+    -webkit-animation: colorchange 10s infinite;
+    animation: colorchange 10s infinite;
+    font-size: xx-large;
+    font-family: 'Indie Flower', cursive;
+    background-image: url("./papillons.jpeg");
+}
+
+
+  @-webkit-keyframes colorchange {
+    0% {
+        color: #99ff00;
+    }
+    25% {
+        color: #008cff;
+    }
+    50% {
+        color: #ff0000;
+    }
+    75% {
+        color: #00ffff;
+    }
+    100% {
+        color: #fbff00;
+    }
+  }
+  @keyframes colorchange {
+    0% {
+        color: #99ff00;
+    }
+    25% {
+        color: #008cff;
+    }
+    50% {
+        color: #ff0000;
+    }
+    75% {
+        color: #00ffff;
+    }
+    100% {
+      color: #fbff00;
+    }
+}
